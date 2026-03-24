@@ -11,7 +11,7 @@ export interface DestinationData {
 }
 export interface CrewData {
 	id: number;
-	name: "string";
+	name: string;
 	images: {
 		png: string;
 		webp: string;
@@ -21,7 +21,7 @@ export interface CrewData {
 }
 export interface TechnologyData {
 	number: string;
-	name: "string";
+	name: string;
 	images: {
 		portrait: string;
 		landscape: string;
